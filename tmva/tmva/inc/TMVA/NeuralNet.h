@@ -51,7 +51,7 @@
 #include "TStyle.h"
 
 #include <fenv.h> // turn on or off exceptions for NaN and other numeric exceptions
-
+#include <type_traits>
 
 namespace TMVA
 {
